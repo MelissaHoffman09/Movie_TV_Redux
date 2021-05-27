@@ -37,29 +37,28 @@ button {
     margin-right: auto;
     margin-left: auto;
 }
-
-@media (min-width: 576px){
+/*Phone*/
+@media (min-width: 575px){
     .container {
     max-width: 540px;
 }}
-
-@media (min-width: 768px){
+@media (max-width: 575x) {
+    .container {
+        max-width: 710px;
+    }
+}
+/*Tablet*/
+@media (min-width: 760px){
     .container {
     max-width: 720px;
 }}
 
-@media (min-width: 992px){
+@media (min-width: 1025px){
     .container {
     max-width: 960px;
 }}
-
-@media (min-width: 1200px){
+/*Desktop*/
+@media (min-width: 1281px){
     .container {
     max-width: 1040px;
 }}
-
-@media (max-width: 576px) {
-    .container {
-        max-width: 90vw;
-    }
-}
