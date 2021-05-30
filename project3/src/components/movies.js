@@ -4,6 +4,7 @@ import {addMovie} from '../redux/movies';
 import Card from './card';
 import Container from './container';
 import Button from './button';
+import Footer from './footer';
 import {Link} from "react-router-dom";
 import './styles.css';
 
