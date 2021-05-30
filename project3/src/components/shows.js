@@ -5,6 +5,7 @@ import Card from './card';
 import Container from './container';
 import Button from './button';
 import {Link} from "react-router-dom";
+import Footer from './footer';
 import './styles.css';
 
 const Shows = () => {

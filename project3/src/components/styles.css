@@ -62,3 +62,12 @@ button {
     .container {
     max-width: 1040px;
 }}
+
+#footer {
+    padding: auto;
+    position: fixed;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    text-align: center;
+}
